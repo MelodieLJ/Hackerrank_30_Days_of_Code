@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackerrank_30_Days_of_Code", "Hackerrank_30_Days_of_Code\Hackerrank_30_Days_of_Code.csproj", "{B2077F13-3315-48CD-A211-B47586C9FA61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day0_Hello_World", "Hackerrank_30_Days_of_Code\Day0_Hello_World.csproj", "{B2077F13-3315-48CD-A211-B47586C9FA61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_Data_Types", "Day1_Data_Types\Day1_Data_Types.csproj", "{BD42A692-7983-4885-920B-EE94BBA316AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B2077F13-3315-48CD-A211-B47586C9FA61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2077F13-3315-48CD-A211-B47586C9FA61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2077F13-3315-48CD-A211-B47586C9FA61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD42A692-7983-4885-920B-EE94BBA316AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD42A692-7983-4885-920B-EE94BBA316AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD42A692-7983-4885-920B-EE94BBA316AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD42A692-7983-4885-920B-EE94BBA316AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
