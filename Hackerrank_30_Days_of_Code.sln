@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day0_Hello_World", "Hackerr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_Data_Types", "Day1_Data_Types\Day1_Data_Types.csproj", "{BD42A692-7983-4885-920B-EE94BBA316AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_Operator", "Day2_Operator\Day2_Operator.csproj", "{A224895C-D362-440F-AC0F-31F404BB3CF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BD42A692-7983-4885-920B-EE94BBA316AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD42A692-7983-4885-920B-EE94BBA316AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD42A692-7983-4885-920B-EE94BBA316AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A224895C-D362-440F-AC0F-31F404BB3CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A224895C-D362-440F-AC0F-31F404BB3CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A224895C-D362-440F-AC0F-31F404BB3CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A224895C-D362-440F-AC0F-31F404BB3CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
