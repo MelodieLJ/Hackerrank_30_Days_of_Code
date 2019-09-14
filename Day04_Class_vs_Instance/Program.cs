@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day04_Class_vs_Instance
+namespace Day4_Class_vs_Instance
 {
     class Program
     {

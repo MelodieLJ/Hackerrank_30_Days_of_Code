@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_Operators", "Day2_Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_Conditional_Statements", "Day3_Conditional_Statements\Day3_Conditional_Statements.csproj", "{55B07F75-76F8-4C5C-9AB9-EF7DD13FC76C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day04_Class_vs_Instance", "Day04_Class_vs_Instance\Day04_Class_vs_Instance.csproj", "{FABD4ED9-6C66-4BCB-8105-3E060ED6C964}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4_Class_vs_Instance", "Day04_Class_vs_Instance\Day4_Class_vs_Instance.csproj", "{FABD4ED9-6C66-4BCB-8105-3E060ED6C964}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
