@@ -11,15 +11,30 @@ namespace Day07_Arrays
     {
         static void Main(string[] args)
         {
+            int entries = Convert.ToInt32(Console.ReadLine());
 
-            int n = Convert.ToInt32(Console.ReadLine());
-            string[] temp = Console.ReadLine().Split(' ');
+            Dictionary<string, int> phoneBook = new Dictionary<string, int>();
 
-            int[] arr = Array.ConvertAll(temp, Int32.Parse);
-
-            for (int i = n - 1; i >= 0; i--)
+            for (int i = 0; i < entries; i++)
             {
-                Console.Write(arr[i] + " ");
+                var entry = Console.ReadLine().Split(' ');
+                string name = entry[0];
+                int number = Convert.ToInt32(entry[1]);
+                phoneBook.Add(name, number);
+            }
+
+            for (int i = 0; i < entries; i++)
+            {
+                var query = Console.ReadLine();
+                if (phoneBook.ContainsKey(query))
+                {
+                    var phone = phoneBook[query];
+                    Console.WriteLine($"{query} = {phone}");
+                }
+                else
+                {
+                    Console.WriteLine("Not found");
+                }
             }
         }
     }
